@@ -243,15 +243,15 @@ def physics_solver():
     formulas = {
         "Force (F = m × a)": ["mass (kg)", "acceleration (m/s²)", "Force in (N)"],
         "Energy (E = m × c²)": ["mass (kg)", None, "Energy in (J)"],
-        "Work Done (W = F × d)": ["force (N)", "distance (m)", "Work Done (J)"],
-        "Power (P = W ÷ t)": ["work done (J)", "time (s)", "Power (W)"],
-        "Kinetic Energy (KE = ½ × m × v²)": ["mass (kg)", "velocity (m/s)", "Kinetic Energy (J)"],
-        "Potential Energy (PE = m × g × h)": ["mass (kg)", "height (m)", "Potential Energy (J)"],
-        "Momentum (p = m × v)": ["mass (kg)", "velocity (m/s)", "Momentum (kg·m/s)"],
-        "Density (ρ = m ÷ V)": ["mass (kg)", "volume (m³)", "Density (kg/m³)"],
-        "Pressure (P = F ÷ A)": ["force (N)", "area (m²)", "Pressure (Pa)"],
-        "Ohm’s Law (V = I × R)": ["current (A)", "resistance (Ω)", "Voltage (V)"],
-        "Wave Speed (v = f × λ)": ["frequency (Hz)", "wavelength (m)", "Wave Speed (m/s)"]
+        "Work Done (W = F × d)": ["force (N)", "distance (m)", "Work Done in (J)"],
+        "Power (P = W ÷ t)": ["work done (J)", "time (s)", "Power in (W)"],
+        "Kinetic Energy (KE = ½ × m × v²)": ["mass (kg)", "velocity (m/s)", "Kinetic Energy in (J)"],
+        "Potential Energy (PE = m × g × h)": ["mass (kg)", "height (m)", "Potential Energy in (J)"],
+        "Momentum (p = m × v)": ["mass (kg)", "velocity (m/s)", "Momentum in (kg·m/s)"],
+        "Density (ρ = m ÷ V)": ["mass (kg)", "volume (m³)", "Density in (kg/m³)"],
+        "Pressure (P = F ÷ A)": ["force (N)", "area (m²)", "Pressure in (Pa)"],
+        "Ohm’s Law (V = I × R)": ["current (A)", "resistance (Ω)", "Voltage in (V)"],
+        "Wave Speed (v = f × λ)": ["frequency (Hz)", "wavelength (m)", "Wave Speed in (m/s)"]
     }
     
     selected_formula = st.selectbox("Choose your formula 📐", list(formulas.keys()))
