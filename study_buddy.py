@@ -295,7 +295,7 @@ def physics_solver():
         
         st.markdown(f"""
         ### Result ✨
-        {formulas[selected_formula][2]}: **{result:.2f}**
+        {formulas[selected_formula][2]}: **{result:.4f}**
         """)
 
 ## Sidra
