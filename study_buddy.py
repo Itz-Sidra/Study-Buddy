@@ -1,5 +1,4 @@
 import streamlit as st
-import math
 from datetime import datetime, date
 
 # Set page config for a wider layout and custom title
@@ -395,7 +394,7 @@ def main():
         "📏 Unit Converter": unit_converter
     }
     
-    choice = st.sidebar.radio("What do you want to do today? 🤔", options.keys())
+    choice = st.sidebar.radio("Let's get productive! 🚀", options.keys())
     
     if choice == "🏠 Home":
         st.markdown("""
