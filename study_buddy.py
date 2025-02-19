@@ -241,8 +241,8 @@ def physics_solver():
     st.write("Let's solve some physics problems! 🔬")
     
     formulas = {
-        "Force (F = m × a)": ["mass (kg)", "acceleration (m/s²)", "Force (N)"],
-        "Energy (E = m × c²)": ["mass (kg)", None, "Energy (J)"],
+        "Force (F = m × a)": ["mass (kg)", "acceleration (m/s²)", "Force in (N)"],
+        "Energy (E = m × c²)": ["mass (kg)", None, "Energy in (J)"],
         "Work Done (W = F × d)": ["force (N)", "distance (m)", "Work Done (J)"],
         "Power (P = W ÷ t)": ["work done (J)", "time (s)", "Power (W)"],
         "Kinetic Energy (KE = ½ × m × v²)": ["mass (kg)", "velocity (m/s)", "Kinetic Energy (J)"],
