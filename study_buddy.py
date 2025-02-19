@@ -21,9 +21,6 @@ st.markdown("""
     .stButton button:hover {
         background-color: #FF8787;
     }
-    .css-1d391kg {
-        padding: 2rem 1rem;
-    }
     .stTextInput input {
         border-radius: 15px;
     }
