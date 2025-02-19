@@ -351,7 +351,7 @@ def unit_converter():
     conversion = st.selectbox("Select Conversion 🔄", list(conversion_types[category].keys()))
     
     # Input value
-    col1 = st.columns(2)
+    col1, col2 = st.columns(2)
     with col1:
         value = st.number_input("Enter Value 📝", value=0.0)
     
